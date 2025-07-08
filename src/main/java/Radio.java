@@ -18,12 +18,14 @@ public class Radio {
         }
     }
 
-    public void increaseVolume() {
-        if (currentVolume != 100) {
-            currentVolume++;
-            return;
+    public void increaseVolume()  // Увеличение громкости
+    {
+        if (currentVolume != 100) // Условие если значение не равно 100
+        {
+            currentVolume++; // То прибавляем +1
+            return; // выходим
         }
-        currentVolume = 0;
+        currentVolume = 100; // Если равно 100 то 100
     }
 
     public void decreaseVolume() {
