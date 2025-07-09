@@ -23,9 +23,9 @@ public class Radio {
         if (currentVolume != 100) // Условие если значение не равно 100
         {
             currentVolume++; // То прибавляем +1
-            return; // выходим
+
         }
-        //currentVolume = 100; // Если равно 100 то 100
+
     }
 
     public void decreaseVolume() {
