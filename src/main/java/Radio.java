@@ -28,13 +28,16 @@ public class Radio {
 
     }
 
-    public void decreaseVolume() {
-        if (currentVolume != 0) {
-            currentVolume--;
-        } else {
-            currentVolume = 0;
+    public void decreaseVolume() // Уменьшение громкости
+    {
+        if (currentVolume != 0) // Условие если значение не равно 0
+        {
+            currentVolume--; // То убавляем -1
         }
+        
     }
+    
+    
 
 
     public int getCurrentStation() {
